@@ -3,14 +3,14 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF, useAnimations } from "@react-three/drei";
 import './App.css';
 import Scene from "./Scene";
-import Navbar from './components/navBar/nav'
+import Navbar from '../components/navBar/nav'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Speaker from './components/speaker/Speakers'
-import Faq from './components/faq/faq'
-import Clock from './components/clock/Clock'
-import Sponsors from './components/sponsors/sponsors'
-import Footer from './components/footer/Footer'
-import About from './components/about/AboutPage'
+import Speaker from '../components/speaker/Speakers'
+import Faq from '../components/faq/faq'
+import Clock from '../components/clock/Clock'
+import Sponsors from '../components/sponsors/sponsors'
+import Footer from '../components/footer/Footer'
+import About from '../components/about/AboutPage'
 
 export default function App() {
   return (
